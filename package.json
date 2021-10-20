@@ -1,0 +1,11 @@
+{
+  "name": "vscode-stylelint-test",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "stylelint '**/*.{css,scss,html,vue}'"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^14.0.0-0"
+  }
+}

@@ -1,0 +1,32 @@
+
+// Author content styles.
+@import "author/bio";
+@import "author/header";
+
+
+
+.a{
+	color: red !imprtant;
+	}
+
+	.{
+
+	}
+.author-header {
+		background: var( --vanilla );
+		padding-top: 58px;
+	
+		&__inner {
+			grid-template-columns: repeat( 8, 1fr );
+			display: grid;
+			gap: 0 $column-gap-s;
+			padding: 9px $column-gap-s 0;
+			background: #ff0;
+		}
+	
+		&__meta {
+			grid-column-end: span 8;
+			grid-row-end: span 1;
+			background: red;
+		}
+}	
